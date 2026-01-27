@@ -95,4 +95,16 @@ world | <- This is pointer
 Pointer now at EOF
 Second read() → nothing left → returns ""
 
+
+
+
+we move the pointer manually?
+
+f.seek(0)   # move pointer to beginning
+
+eg:
+f.read()
+f.seek(0)
+f.read()   # reads again
+"but seek cause bugs"
 '''
